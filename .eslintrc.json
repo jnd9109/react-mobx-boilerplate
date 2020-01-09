@@ -1,10 +1,9 @@
 {
   "extends": [
-    "airbnb",
+    "airbnb-typescript",
     "prettier",
     "prettier/react",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint"
   ],
   "plugins": ["react", "@typescript-eslint", "prettier", "react-hooks"],
