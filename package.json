@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jnd9109/react-mobx-boilerplate#readme",
   "dependencies": {
+    "autoprefixer": "^9.7.4",
     "axios": "^0.19.1",
     "babel-polyfill": "^6.26.0",
     "moment": "^2.24.0",

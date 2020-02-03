@@ -107,9 +107,12 @@ const conf = {
     react: 'React',
     'react-dom': 'ReactDOM',
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js'],
+  },
 };
 
-module.exports = (env: any, argv: any) => {
+module.exports = (env, argv) => {
   return {
     ...conf,
     plugins: [

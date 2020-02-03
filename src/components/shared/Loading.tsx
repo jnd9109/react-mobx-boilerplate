@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 import Lottie from 'react-lottie';
 import * as loadingConf from '../../assets/loading.json';
@@ -26,7 +26,7 @@ const LoadingContainer = styled.div`
   padding: 12.5px;
 `;
 
-function Loading() {
+const Loading: FC<{}> = () => {
   const loadingOptions = {
     loop: true,
     autoplay: true,
@@ -45,6 +45,6 @@ function Loading() {
       </LoadingContainer>
     </Wrapper>
   );
-}
+};
 
 export default Loading;
