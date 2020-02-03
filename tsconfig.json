@@ -6,10 +6,16 @@
     "sourceMap": true,
     "outDir": "./dist/",
     "moduleResolution": "node",
-    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "strict": true
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
   },
   "include": [
     "src/**/*.ts",

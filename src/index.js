@@ -7,7 +7,7 @@ import './style.scss';
 
 // polyfill startsWith for IE
 if (!String.prototype.startsWith) {
-  (String.prototype: any).startsWith = function startsWithExtend(search, pos) {
+  String.prototype.startsWith = function startsWithExtend(search, pos) { // eslint-disable-line
     return this.substr(!pos || pos < 0 ? 0 : +pos, search.length) === search;
   };
 }
